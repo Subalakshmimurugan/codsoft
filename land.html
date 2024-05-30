@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>LANDING PAGE</title>
+    <style>
+        body{
+            background-image:url(./carrr.jpg);
+            background-size: cover;
+            background-attachment:scroll;
+        }
+      
+        .container {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+        .container column {
+            margin: 10px;
+            flex: 1;
+
+        }
+        form{
+            
+            margin: 100px;
+            padding-left: 100 px;
+            padding-right: 200px;
+          }
+          .h3{
+            padding-left: 200 px;
+            padding-right: 400px;
+          }
+          .h4{
+            
+            text-align: center;
+
+          } 
+          .h1{
+            color: burlywood;
+          }
+          button{
+            color:rgb(6, 9, 9);
+            size: 200px;;
+          }
+           </style>
+</head>
+<body>
+    <header>
+        <button>HOME</button>
+        <button>ABOUT</button>
+        <button>CONTACT</button>
+        <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">CAR INSURANCE</h3>
+    </header>
+    <main>
+        <h1>HOME</h1>
+        <div class="container">
+            
+            <div class="column">
+              <img src="./carr.jpg">
+        </div>
+        <div class="column">
+           
+            <form >
+                <h3>   PLEASE SIGNIN HERE</h3>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Password:</label>
+                <input type="password" id="password" name="password" required></textarea><br><br>
+                <label for="zipcode">Zip Code:</label>
+                <input type="text" id="zipcode" name="zipcode" required><br><br>
+                
+                <input type="submit" value="Submit">
+            </form>
+
+            </div>
+        </div> 
+        <div class="container1">
+            <h1>ABOUT</h1>
+            <h2>"Get peace of mind on the road with our car insurance. 
+                From liability to comprehensive coverage, we offer protection tailored to your needs.
+                 Enjoy competitive premiums, 24/7 customer support, and easy claims processing. 
+                  confidently knowing you're covered with us."</h2>
+        </div>
+        <div>
+            <h1>CONTACT</h1>
+            <h3>For any queries, please contact us at:</h3>
+            <h3>Email: carinsurancecompany@gmail.com</h3>
+            <h3>Phone: 976854321</h3>
+
+        </div>
+</body>
+</html>
